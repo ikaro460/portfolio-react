@@ -4,9 +4,9 @@ import "./style.css";
 
 function NavBar() {
   return (
-    <section class="navbar">
-      <div class="interface">
-        <nav class="menu-desktop">
+    <section className="navbar">
+      <div className="interface">
+        <nav className="menu-desktop">
           <ul>
             <li>
               <a href="./index.html">Inicio</a>

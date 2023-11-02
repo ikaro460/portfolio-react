@@ -1,7 +1,7 @@
 /* ESTILOS GERAIS */
 
 :root {
-  --background-dark: #121212; /* Dark background color */
+  --background-dark: #010101; /* Dark background color */
   --background-light: #1f1f1f; /* Slightly lighter background color */
   --text-color: #ffffff; /* Text color for light text on dark background */
   --text-light: #7c7c7c; /* Text color for light text on dark background */
@@ -11,7 +11,7 @@
   /* Additional shades for variation */
   --primary-dark: #1a1a1a;
   --secondary-dark: #272727;
-  --accent-dark: #1abc9c;
+  --accent-dark: #1aaebc;
   --link-dark: #16a085;
 
   --font-family: "Bricolage Grotesque", sans-serif;

@@ -4,20 +4,26 @@ import "./style.css";
 
 function NavBar() {
   return (
-    <header>
-      <div className="interface">
-        <div className="logo">
-          <a href="./index.html">
-            <img src={htmlLogo} alt="logo" />
-          </a>
-        </div>
-        <div className="btn-contato">
-          <a href="./contato.html">
-            <button>Contato</button>
-          </a>
-        </div>
+    <section class="navbar">
+      <div class="interface">
+        <nav class="menu-desktop">
+          <ul>
+            <li>
+              <a href="./index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="#">Especialidades</a>
+            </li>
+            <li>
+              <a href="#">Sobre</a>
+            </li>
+            <li>
+              <a href="#">Projetos</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </header>
+    </section>
   );
 }
 

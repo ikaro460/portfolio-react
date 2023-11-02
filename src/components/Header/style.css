@@ -1,0 +1,18 @@
+@import "../../styles/global.css";
+
+header {
+  padding: 15px 4%;
+  width: 100%;
+  position: relative;
+  background-color: var(--background-dark);
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 50px;
+}
